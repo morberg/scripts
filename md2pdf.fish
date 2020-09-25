@@ -1,6 +1,6 @@
 #! /usr/local/bin/fish
-# Convert markdown to PDF using pandoc and some better looking fonts
-# Requires `brew cask install basiclatex`
+# Convert markdown to PDF using pandoc
+# Requires `brew cask install basiclatex` and macOS (due to fonts)
 #
 # Source file: $argv
 # Destination file: (basename $argv .md).pdf

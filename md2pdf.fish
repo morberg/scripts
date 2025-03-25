@@ -1,4 +1,4 @@
-#! /usr/local/bin/fish
+#! /usr/bin/env fish
 # Convert markdown to PDF using pandoc
 # Requires `brew cask install basiclatex` and macOS (due to fonts)
 #

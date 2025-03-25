@@ -8,5 +8,5 @@
 pandoc $argv \
     --pdf-engine=xelatex --variable documentclass=scrreprt \
     --variable mainfont="Hoefler Text" --variable sansfont="Avenir" \
-    --variable papersize=a4paper \
+    --variable papersize=a4 \
     -o (basename $argv .md).pdf
